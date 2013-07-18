@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Effeckt.css</title>
+
+    <meta name="description" content="UI-Less & Performant Transitions & Animations">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="assets/css/demo/demo.autoprefixed.css">
+
+    <!-- Individual module CSS files here -->
+    <!-- Should we combine or not combine? -->
+    <link rel="stylesheet" href="assets/css/modules/modals.autoprefixed.css">
+    <link rel="stylesheet" href="assets/css/modules/buttons.autoprefixed.css">
+    <link rel="stylesheet" href="assets/css/modules/list-items.autoprefixed.css">
+    <link rel="stylesheet" href="assets/css/modules/off-screen-nav.autoprefixed.css">
+    <link rel="stylesheet" href="assets/css/modules/page-transitions.autoprefixed.css">
+    <link rel="stylesheet" href="assets/css/modules/captions.autoprefixed.css">
+    <link rel="stylesheet" href="assets/css/modules/list-scroll.autoprefixed.css">
+</head>
+
+<body>
+
+  <nav class="effeckt-off-screen-nav" id="effeckt-off-screen-nav">
+
+  <h4>
+    Navigation
+    <a href="#0" id="effeckt-off-screen-nav-close" class="effeckt-off-screen-nav-close">×</a>
+  </h4>
+
+  <ul>
+    <li><a href="#0">This</a></li>
+    <li><a href="#0">Little</a></li>
+    <li><a href="#0">Piggy</a></li>
+    <li><a href="#0">Went</a></li>
+    <li><a href="#0">To</a></li>
+    <li><a href="#0">Market</a></li>
+  </ul>
+
+</nav>
+
+  <div class="effeckt-page-transition" id="effeckt-page-transition">
+
+    <div class="effeckt-page-transition-content">
+
+      <h2>Page Transition</h2>
+
+      <p>This is another page.</p>
+
+      <button class="page-transition-reset-button">Reset Transition</button>
+
+    </div>
+
+</div>
+
+
+    <!-- dialogs first is important for ~ selector -->
+  <div class="effeckt-modal-wrap" id="effeckt-modal-wrap"> <!-- for centering transform -->
+  <div class="effeckt-modal" id="effeckt-modal">
+    <h3>Modal Dialog</h3>
+    <div class="effeckt-modal-content">
+      <p>This is a modal window.</p>
+      <button class="effeckt-modal-close">Close me!</button>
+    </div>
+  </div>
+  </div>
+  <!-- overlay coming after is important for ~ selector -->
+  <div class="effeckt-overlay no-transitions" id="effeckt-overlay"></div>
+
+  <div class="page-wrap no-transitions" id="page-wrap">
+
+    <h1>
+      <a href="/Effeckt.css/dist/">
+        <span>E</span>
+        <span>f</span>
+        <span>f</span>
+        <span>e</span>
+        <span>c</span>
+        <span>k</span>
+        <span>t</span>
+        <br class="mobile-break">
+        <span>.</span>
+        <span>c</span>
+        <span>s</span>
+        <span>s</span>
+      </a>
+    </h1>
+    <subhead>
+      Performant CSS transitions & animations
+      <a href="https://github.com/h5bp/Effeckt.css">on GitHub</a>
+    </subhead>
+
+
+    <section class="effeckt-demo-modals">
+  <div class="effeckt effeckt-demo-modals">
+
+  <header>
+    <h2>
+      Modals
+      <a href="modals.html">#</a>
+    </h2>
+    <span class="source">
+      Source:
+      <a href="http://tympanus.net/codrops/2013/06/25/nifty-modal-window-effects/">
+        Codrops
+      </a>
+    </span>
+  </header>
+
+  <div class="button-group">
+  <button class="modal2-button" data-modal-type="modal-1">From Below</button>
+  <button class="modal2-button" data-modal-type="modal-5">From Above</button>
+  <button class="modal2-button" data-modal-type="modal-2">Slide In (right)</button>
+  <button class="modal2-button" data-modal-type="modal-3">Slide In (bottom)</button>
+  <button class="modal2-button" data-modal-type="modal-4">Newspaper</button>
+  <button class="modal2-button" data-modal-type="modal-6">Side Fall</button>
+  <button class="modal2-button" data-modal-type="modal-7">Sticky Up</button>
+  <button class="modal2-button" data-modal-type="modal-8">3D Flip (horizontal)</button>
+  <button class="modal2-button" data-modal-type="modal-9">3D Flip (vertical)</button>
+  <button class="modal2-button" data-modal-type="modal-10">3D Sign</button>
+  <button class="modal2-button" data-modal-type="modal-12">Just Me</button>
+  <button class="modal2-button" data-modal-type="modal-13">3D Slit</button>
+  <button class="modal2-button" data-modal-type="modal-14">3D Rotate Bottom</button>
+  <button class="modal2-button" data-modal-type="modal-15">3D Rotate In Left</button>
+  <button class="modal2-button" data-modal-type="modal-16">Blur</button>
+
+  <button class="modal2-button" data-modal-type="modal-17" data-needs-perspective="true">Let Me In</button>
+  <button class="modal2-button" data-modal-type="modal-18" data-needs-perspective="true">Make Way!</button>
+  <button class="modal2-button" data-modal-type="modal-19" data-needs-perspective="true">Slip From Top</button>
+
+  <button class="modal2-button" data-modal-type="modal-20" data-hide-class="true">From Top, Tilt Fall</button>
+  <button class="modal2-button" data-modal-type="modal-22" data-hide-class="true">From Top to Bottom</button>
+  <button class="modal2-button" data-modal-type="modal-23" data-hide-class="true">From Bottom to Bottom</button>
+  <button class="modal2-button" data-modal-type="modal-24" data-hide-class="true">From Top to Top</button>
+  </div>
+
+</div>
+
+</section>
+
+<section class="effeckt-demo-buttons">
+  <div class="effeckt effeckt-demo-buttons group">
+
+  <header>
+    <h2>
+      Buttons
+      <a href="buttons.html">#</a>
+    </h2>
+    <span class="source">
+      Source:
+      <a href="http://lab.hakim.se/effeckt/">
+        Hakim El Hattab
+      </a>
+    </span>
+  </header>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button expand-right"><span class="label">Expand Right</span> <span class="spinner"></span></button>
+  </div>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button expand-left"><span class="label">Expand Left</span> <span class="spinner"></span></button>
+  </div>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button expand-up"><span class="label">Expand Up</span> <span class="spinner"></span></button>
+  </div>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button expand-down"><span class="label">Expand Down</span> <span class="spinner"></span></button>
+  </div>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button slide-left"><span class="label">Slide Left</span> <span class="spinner"></span></button>
+  </div>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button slide-right"><span class="label">Slide Right</span> <span class="spinner"></span></button>
+  </div>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button slide-up"><span class="label">Slide Up</span> <span class="spinner"></span></button>
+  </div>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button slide-down"><span class="label">Slide Down</span> <span class="spinner"></span></button>
+  </div>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button zoom-out"><span class="label">Zoom Out</span> <span class="spinner"></span></button>
+  </div>
+
+  <div class="button-demo-wrap">
+    <button class="effeckt-button zoom-in"><span class="label">Zoom in</span> <span class="spinner"></span></button>
+  </div>
+</div>
+
+</section>
+
+<section class="effeckt-demo-list-items">
+  <div class="effeckt effeckt-demo-list-items group">
+
+  <header>
+    <h2>
+      List Items
+      <a href="listitems.html">#</a>
+    </h2>
+    <span class="source">
+      Source:
+      <a href="http://css-tricks.com/transitional-interfaces-coded/">
+        CSS-Tricks
+      </a>
+    </span>
+  </header>
+
+  <div class="effeckt-list-wrap" style="padding-right: 20px;">
+    <h4>Gap, Slide In/Slide Out</h4>
+    <ul class="effeckt-list" data-type="pop-in">
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+    <button class="add">Add</button>
+    <button class="remove">Remove</button>
+  </div>
+
+  <div class="effeckt-list-wrap">
+    <h4>Expand In/Shrink Out</h4>
+    <ul class="effeckt-list" data-type="expand-in">
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+    <button class="add">Add</button>
+    <button class="remove">Remove</button>
+  </div>
+
+  <div class="effeckt-list-wrap" style="padding-right: 20px;">
+    <h4>Wobble In/Wobble Out</h4>
+    <ul class="effeckt-list" data-type="wobble-in">
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+    <button class="add">Add</button>
+    <button class="remove">Remove</button>
+  </div>
+
+  <div class="effeckt-list-wrap">
+    <h4>Flip In/Flip Out</h4>
+    <ul class="effeckt-list" data-type="flip-in">
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+    <button class="add">Add</button>
+    <button class="remove">Remove</button>
+  </div>
+
+</div>
+
+</section>
+
+<section class="effeckt-demo-list-scroll">
+  <div class="effeckt effeckt-demo-list-scroll group">
+
+  <header>
+    <h2>
+      List Scroll
+      <a href="list-scroll.html">#</a>
+    </h2>
+    <span class="source">
+      Source:
+      <a href="http://lab.hakim.se/scroll-effects/">
+        Hakim El Hattab
+      </a>
+    </span>
+  </header>
+
+  <ul class="effeckt-list-scroll" data-effeckt='grow'><li>One</li><li>Two</li><li>Three</li><li>Four</li><li>Five</li><li>Six</li><li>Seven</li><li>Eight</li><li>Nine</li><li>Ten</li><li>Eleven</li><li>Twelve</li><li>Thirteen</li><li>Fourteen</li><li>Fifteen</li><li>Sixteen</li><li>Seventeen</li><li>Eighteen</li><li>Nineteen</li><li>Twenty</li><li>Twentyone</li><li>Twentytwo</li><li>Twentythree</li><li>Twentyfour</li><li>Twentyfive</li><li>Twentysix</li><li>Twentyseven</li><li>Twentyeight</li><li>Twentynine</li><li>Thirty</li><li>Thirtyone</li><li>Thirtytwo</li><li>Thirtythree</li><li>Thirtyfour</li><li>Thirtyfive</li><li>Thirtysix</li><li>Thirtyseven</li><li>Thirtyeight</li><li>Thirtynine</li><li>Forty</li><li>Fortyone</li><li>Fortytwo</li><li>Fortythree</li><li>Fortyfour</li><li>Fortyfive</li><li>Fortysix</li><li>Fortyseven</li><li>Fortyeight</li><li>Fortynine</li><li>Fifty</li><li>Fiftyone</li><li>Fiftytwo</li><li>Fiftythree</li><li>Fiftyfour</li><li>Fiftyfive</li><li>Fiftysix</li><li>Fiftyseven</li><li>Fiftyeight</li><li>Fiftynine</li><li>Sixty</li><li>Sixtyone</li><li>Sixtytwo</li><li>Sixtythree</li><li>Sixtyfour</li><li>Sixtyfive</li><li>Sixtysix</li><li>Sixtyseven</li><li>Sixtyeight</li><li>Sixtynine</li><li>Seventy</li><li>Seventyone</li><li>Seventytwo</li><li>Seventythree</li><li>Seventyfour</li><li>Seventyfive</li><li>Seventysix</li><li>Seventyseven</li><li>Seventyeight</li><li>Seventynine</li><li>Eighty</li><li>Eightyone</li><li>Eightytwo</li><li>Eightythree</li><li>Eightyfour</li><li>Eightyfive</li><li>Eightysix</li><li>Eightyseven</li><li>Eightyeight</li><li>Eightynine</li><li>Ninety</li><li>Ninetyone</li><li>Ninetytwo</li><li>Ninetythree</li><li>Ninetyfour</li><li>Ninetyfive</li><li>Ninetysix</li><li>Ninetyseven</li><li>Ninetyeight</li><li>Ninetynine</li></ul>
+
+  <ul class="effeckt-list-scroll" data-effeckt='curl'><li>One</li><li>Two</li><li>Three</li><li>Four</li><li>Five</li><li>Six</li><li>Seven</li><li>Eight</li><li>Nine</li><li>Ten</li><li>Eleven</li><li>Twelve</li><li>Thirteen</li><li>Fourteen</li><li>Fifteen</li><li>Sixteen</li><li>Seventeen</li><li>Eighteen</li><li>Nineteen</li><li>Twenty</li><li>Twentyone</li><li>Twentytwo</li><li>Twentythree</li><li>Twentyfour</li><li>Twentyfive</li><li>Twentysix</li><li>Twentyseven</li><li>Twentyeight</li><li>Twentynine</li><li>Thirty</li><li>Thirtyone</li><li>Thirtytwo</li><li>Thirtythree</li><li>Thirtyfour</li><li>Thirtyfive</li><li>Thirtysix</li><li>Thirtyseven</li><li>Thirtyeight</li><li>Thirtynine</li><li>Forty</li><li>Fortyone</li><li>Fortytwo</li><li>Fortythree</li><li>Fortyfour</li><li>Fortyfive</li><li>Fortysix</li><li>Fortyseven</li><li>Fortyeight</li><li>Fortynine</li><li>Fifty</li><li>Fiftyone</li><li>Fiftytwo</li><li>Fiftythree</li><li>Fiftyfour</li><li>Fiftyfive</li><li>Fiftysix</li><li>Fiftyseven</li><li>Fiftyeight</li><li>Fiftynine</li><li>Sixty</li><li>Sixtyone</li><li>Sixtytwo</li><li>Sixtythree</li><li>Sixtyfour</li><li>Sixtyfive</li><li>Sixtysix</li><li>Sixtyseven</li><li>Sixtyeight</li><li>Sixtynine</li><li>Seventy</li><li>Seventyone</li><li>Seventytwo</li><li>Seventythree</li><li>Seventyfour</li><li>Seventyfive</li><li>Seventysix</li><li>Seventyseven</li><li>Seventyeight</li><li>Seventynine</li><li>Eighty</li><li>Eightyone</li><li>Eightytwo</li><li>Eightythree</li><li>Eightyfour</li><li>Eightyfive</li><li>Eightysix</li><li>Eightyseven</li><li>Eightyeight</li><li>Eightynine</li><li>Ninety</li><li>Ninetyone</li><li>Ninetytwo</li><li>Ninetythree</li><li>Ninetyfour</li><li>Ninetyfive</li><li>Ninetysix</li><li>Ninetyseven</li><li>Ninetyeight</li><li>Ninetynine</li></ul>
+
+  <ul class="effeckt-list-scroll" data-effeckt='wave'><li>One</li><li>Two</li><li>Three</li><li>Four</li><li>Five</li><li>Six</li><li>Seven</li><li>Eight</li><li>Nine</li><li>Ten</li><li>Eleven</li><li>Twelve</li><li>Thirteen</li><li>Fourteen</li><li>Fifteen</li><li>Sixteen</li><li>Seventeen</li><li>Eighteen</li><li>Nineteen</li><li>Twenty</li><li>Twentyone</li><li>Twentytwo</li><li>Twentythree</li><li>Twentyfour</li><li>Twentyfive</li><li>Twentysix</li><li>Twentyseven</li><li>Twentyeight</li><li>Twentynine</li><li>Thirty</li><li>Thirtyone</li><li>Thirtytwo</li><li>Thirtythree</li><li>Thirtyfour</li><li>Thirtyfive</li><li>Thirtysix</li><li>Thirtyseven</li><li>Thirtyeight</li><li>Thirtynine</li><li>Forty</li><li>Fortyone</li><li>Fortytwo</li><li>Fortythree</li><li>Fortyfour</li><li>Fortyfive</li><li>Fortysix</li><li>Fortyseven</li><li>Fortyeight</li><li>Fortynine</li><li>Fifty</li><li>Fiftyone</li><li>Fiftytwo</li><li>Fiftythree</li><li>Fiftyfour</li><li>Fiftyfive</li><li>Fiftysix</li><li>Fiftyseven</li><li>Fiftyeight</li><li>Fiftynine</li><li>Sixty</li><li>Sixtyone</li><li>Sixtytwo</li><li>Sixtythree</li><li>Sixtyfour</li><li>Sixtyfive</li><li>Sixtysix</li><li>Sixtyseven</li><li>Sixtyeight</li><li>Sixtynine</li><li>Seventy</li><li>Seventyone</li><li>Seventytwo</li><li>Seventythree</li><li>Seventyfour</li><li>Seventyfive</li><li>Seventysix</li><li>Seventyseven</li><li>Seventyeight</li><li>Seventynine</li><li>Eighty</li><li>Eightyone</li><li>Eightytwo</li><li>Eightythree</li><li>Eightyfour</li><li>Eightyfive</li><li>Eightysix</li><li>Eightyseven</li><li>Eightyeight</li><li>Eightynine</li><li>Ninety</li><li>Ninetyone</li><li>Ninetytwo</li><li>Ninetythree</li><li>Ninetyfour</li><li>Ninetyfive</li><li>Ninetysix</li><li>Ninetyseven</li><li>Ninetyeight</li><li>Ninetynine</li></ul>
+
+  <ul class="effeckt-list-scroll" data-effeckt='fan'><li>One</li><li>Two</li><li>Three</li><li>Four</li><li>Five</li><li>Six</li><li>Seven</li><li>Eight</li><li>Nine</li><li>Ten</li><li>Eleven</li><li>Twelve</li><li>Thirteen</li><li>Fourteen</li><li>Fifteen</li><li>Sixteen</li><li>Seventeen</li><li>Eighteen</li><li>Nineteen</li><li>Twenty</li><li>Twentyone</li><li>Twentytwo</li><li>Twentythree</li><li>Twentyfour</li><li>Twentyfive</li><li>Twentysix</li><li>Twentyseven</li><li>Twentyeight</li><li>Twentynine</li><li>Thirty</li><li>Thirtyone</li><li>Thirtytwo</li><li>Thirtythree</li><li>Thirtyfour</li><li>Thirtyfive</li><li>Thirtysix</li><li>Thirtyseven</li><li>Thirtyeight</li><li>Thirtynine</li><li>Forty</li><li>Fortyone</li><li>Fortytwo</li><li>Fortythree</li><li>Fortyfour</li><li>Fortyfive</li><li>Fortysix</li><li>Fortyseven</li><li>Fortyeight</li><li>Fortynine</li><li>Fifty</li><li>Fiftyone</li><li>Fiftytwo</li><li>Fiftythree</li><li>Fiftyfour</li><li>Fiftyfive</li><li>Fiftysix</li><li>Fiftyseven</li><li>Fiftyeight</li><li>Fiftynine</li><li>Sixty</li><li>Sixtyone</li><li>Sixtytwo</li><li>Sixtythree</li><li>Sixtyfour</li><li>Sixtyfive</li><li>Sixtysix</li><li>Sixtyseven</li><li>Sixtyeight</li><li>Sixtynine</li><li>Seventy</li><li>Seventyone</li><li>Seventytwo</li><li>Seventythree</li><li>Seventyfour</li><li>Seventyfive</li><li>Seventysix</li><li>Seventyseven</li><li>Seventyeight</li><li>Seventynine</li><li>Eighty</li><li>Eightyone</li><li>Eightytwo</li><li>Eightythree</li><li>Eightyfour</li><li>Eightyfive</li><li>Eightysix</li><li>Eightyseven</li><li>Eightyeight</li><li>Eightynine</li><li>Ninety</li><li>Ninetyone</li><li>Ninetytwo</li><li>Ninetythree</li><li>Ninetyfour</li><li>Ninetyfive</li><li>Ninetysix</li><li>Ninetyseven</li><li>Ninetyeight</li><li>Ninetynine</li></ul>
+
+  <ul class="effeckt-list-scroll" data-effeckt='fade'><li>One</li><li>Two</li><li>Three</li><li>Four</li><li>Five</li><li>Six</li><li>Seven</li><li>Eight</li><li>Nine</li><li>Ten</li><li>Eleven</li><li>Twelve</li><li>Thirteen</li><li>Fourteen</li><li>Fifteen</li><li>Sixteen</li><li>Seventeen</li><li>Eighteen</li><li>Nineteen</li><li>Twenty</li><li>Twentyone</li><li>Twentytwo</li><li>Twentythree</li><li>Twentyfour</li><li>Twentyfive</li><li>Twentysix</li><li>Twentyseven</li><li>Twentyeight</li><li>Twentynine</li><li>Thirty</li><li>Thirtyone</li><li>Thirtytwo</li><li>Thirtythree</li><li>Thirtyfour</li><li>Thirtyfive</li><li>Thirtysix</li><li>Thirtyseven</li><li>Thirtyeight</li><li>Thirtynine</li><li>Forty</li><li>Fortyone</li><li>Fortytwo</li><li>Fortythree</li><li>Fortyfour</li><li>Fortyfive</li><li>Fortysix</li><li>Fortyseven</li><li>Fortyeight</li><li>Fortynine</li><li>Fifty</li><li>Fiftyone</li><li>Fiftytwo</li><li>Fiftythree</li><li>Fiftyfour</li><li>Fiftyfive</li><li>Fiftysix</li><li>Fiftyseven</li><li>Fiftyeight</li><li>Fiftynine</li><li>Sixty</li><li>Sixtyone</li><li>Sixtytwo</li><li>Sixtythree</li><li>Sixtyfour</li><li>Sixtyfive</li><li>Sixtysix</li><li>Sixtyseven</li><li>Sixtyeight</li><li>Sixtynine</li><li>Seventy</li><li>Seventyone</li><li>Seventytwo</li><li>Seventythree</li><li>Seventyfour</li><li>Seventyfive</li><li>Seventysix</li><li>Seventyseven</li><li>Seventyeight</li><li>Seventynine</li><li>Eighty</li><li>Eightyone</li><li>Eightytwo</li><li>Eightythree</li><li>Eightyfour</li><li>Eightyfive</li><li>Eightysix</li><li>Eightyseven</li><li>Eightyeight</li><li>Eightynine</li><li>Ninety</li><li>Ninetyone</li><li>Ninetytwo</li><li>Ninetythree</li><li>Ninetyfour</li><li>Ninetyfive</li><li>Ninetysix</li><li>Ninetyseven</li><li>Ninetyeight</li><li>Ninetynine</li></ul>
+
+  <ul class="effeckt-list-scroll" data-effeckt='fly'><li>One</li><li>Two</li><li>Three</li><li>Four</li><li>Five</li><li>Six</li><li>Seven</li><li>Eight</li><li>Nine</li><li>Ten</li><li>Eleven</li><li>Twelve</li><li>Thirteen</li><li>Fourteen</li><li>Fifteen</li><li>Sixteen</li><li>Seventeen</li><li>Eighteen</li><li>Nineteen</li><li>Twenty</li><li>Twentyone</li><li>Twentytwo</li><li>Twentythree</li><li>Twentyfour</li><li>Twentyfive</li><li>Twentysix</li><li>Twentyseven</li><li>Twentyeight</li><li>Twentynine</li><li>Thirty</li><li>Thirtyone</li><li>Thirtytwo</li><li>Thirtythree</li><li>Thirtyfour</li><li>Thirtyfive</li><li>Thirtysix</li><li>Thirtyseven</li><li>Thirtyeight</li><li>Thirtynine</li><li>Forty</li><li>Fortyone</li><li>Fortytwo</li><li>Fortythree</li><li>Fortyfour</li><li>Fortyfive</li><li>Fortysix</li><li>Fortyseven</li><li>Fortyeight</li><li>Fortynine</li><li>Fifty</li><li>Fiftyone</li><li>Fiftytwo</li><li>Fiftythree</li><li>Fiftyfour</li><li>Fiftyfive</li><li>Fiftysix</li><li>Fiftyseven</li><li>Fiftyeight</li><li>Fiftynine</li><li>Sixty</li><li>Sixtyone</li><li>Sixtytwo</li><li>Sixtythree</li><li>Sixtyfour</li><li>Sixtyfive</li><li>Sixtysix</li><li>Sixtyseven</li><li>Sixtyeight</li><li>Sixtynine</li><li>Seventy</li><li>Seventyone</li><li>Seventytwo</li><li>Seventythree</li><li>Seventyfour</li><li>Seventyfive</li><li>Seventysix</li><li>Seventyseven</li><li>Seventyeight</li><li>Seventynine</li><li>Eighty</li><li>Eightyone</li><li>Eightytwo</li><li>Eightythree</li><li>Eightyfour</li><li>Eightyfive</li><li>Eightysix</li><li>Eightyseven</li><li>Eightyeight</li><li>Eightynine</li><li>Ninety</li><li>Ninetyone</li><li>Ninetytwo</li><li>Ninetythree</li><li>Ninetyfour</li><li>Ninetyfive</li><li>Ninetysix</li><li>Ninetyseven</li><li>Ninetyeight</li><li>Ninetynine</li></ul>
+
+</div>
+</section>
+
+<section class="effeckt-demo-off-screen-nav">
+  <div class="effeckt effeckt-demo-modals">
+
+  <header>
+    <h2>
+      Off Screen Nav
+      <a href="off-screen-nav.html">#</a>
+    </h2>
+    <!-- <span class="source">
+      ...
+    </span> -->
+  </header>
+
+  <div class="button-group">
+  <button class="off-screen-nav-button" data-effeckt="effeckt-off-screen-nav-left-overlay">Left Overlay</button>
+  <button class="off-screen-nav-button" data-effeckt="effeckt-off-screen-nav-left-push">Left Push</button>
+  <button class="off-screen-nav-button" data-effeckt="effeckt-off-screen-nav-left-squeeze">Left Squeeze</button>
+  <button class="off-screen-nav-button" data-effeckt="effeckt-off-screen-nav-right-overlay">Right Overlay</button>
+  <button class="off-screen-nav-button" data-effeckt="effeckt-off-screen-nav-right-push">Right Push</button>
+  <button class="off-screen-nav-button" data-effeckt="effeckt-off-screen-nav-right-squeeze">Right Squeeze</button>
+  <button class="off-screen-nav-button" data-effeckt="effeckt-off-screen-nav-rotate" data-threedee="true">Rotate</button>
+  </div>
+
+</div>
+
+</section>
+
+<section class="effeckt-demo-page-transitons">
+  <div class="effeckt effeckt-demo-modals">
+
+  <header>
+    <h2>
+      Page Transitions
+      <a href="page-transitions.html">#</a>
+    </h2>
+    <!-- <span class="source">
+      ...
+    </span> -->
+  </header>
+
+  <button class="page-transition-button" data-transition-in="effeckt-page-transition-left-slide-in" data-transition-out="effeckt-page-transition-left-slide-out">Slide In Left</button>
+  <button class="page-transition-button" data-transition-in="effeckt-page-transition-right-slide-in" data-transition-out="effeckt-page-transition-right-slide-out">Slide In Right</button>
+
+
+</div>
+
+</section>
+
+<section class="effeckt-demo-captions">
+  <div class="effeckt effeckt-captions group">
+
+  <header>
+    <h2>
+      Captions
+      <a href="captions.html">#</a>
+    </h2>
+  </header>
+
+  <div class="all-captions-wrap">
+
+  <figure class="effeckt-caption effeckt-caption-1">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Appear</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <figure class="effeckt-caption effeckt-caption-2">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Slide Up</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <figure class="effeckt-caption effeckt-caption-3">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Sqkwoosh</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <figure class="effeckt-caption effeckt-caption-4">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Slide Side</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <figure class="effeckt-caption effeckt-caption-5">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Cover</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <figure class="effeckt-caption effeckt-caption-6">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Fall in</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <figure class="effeckt-caption effeckt-caption-7">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Two-step</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <figure class="effeckt-caption effeckt-caption-8">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Move</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <figure class="effeckt-caption effeckt-caption-9">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Scale</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <figure class="effeckt-caption effeckt-caption-10">
+    <img src="http://placehold.it/300x200" alt="">
+    <figcaption>
+      <div class="effeckt-figcaption-wrap">
+        <h3>Flip</h3>
+        <p>Lorem ipsum dolar.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+    <div class="effeckt contributors">
+      <header>
+        <h2>Contributors!</h2>
+      </header>
+
+      <div class="readme">
+
+        <p>Ever notice how small flourishes and subtle transitions dramatically increases the value of the experience you enjoy with an app or site?
+
+        <p>Designing and developing UIs for the mobile web is tricky, but it's extremely difficult to do that while delivering something that performs at 60fps. The best opportunities to getting jank-free transitions on phones/tablets are css transition and keyframe animation based, especially tapping into hardware-accelerated transforms and opacity changes.
+
+        <p>This library has a few <strong>goals</strong>:</p>
+
+        <ol>
+        <li>It provides no UI of it's own. It's only hooks for transitions.</li>
+        <li>Designer-curated set of classy and reasonable effects. (no <a href="http://easings.net/#easeInBounce"><code>easeInBounce</code></a>)</li>
+        <li>Establish browser support guidelines (I expect Android 2.3 would gracefully degrade)</li>
+        <li>CSS performance regression testing (a la <a href="http://bench.topcoat.io">bench.topcoat.io</a>)</li>
+        <li>Deliver jank-free <em>60fps</em> performance on target browsers/devices</li>
+        <li>If a particular effect cannot deliver target performance (hey <code>blur()</code> css filter), it cannot be included.</li>
+        <li>Guidelines on what to avoid when styling these affected elements (avoid expensive CSS)</li>
+        <li>Deliver a builder so users can pull only the CSS they need.</li>
+        <li>There is no hover on the mobile web, so any hover-based effects would be excluded.</li>
+        </ol>
+
+        <iframe width="640" height="480" src="//www.youtube.com/embed/Qc40YDFA4Bg" frameborder="0" allowfullscreen></iframe>
+
+        <hr>
+
+      </div>
+
+      <p><a href="https://github.com/h5bp/Effeckt.css#readme">Excellent people go here.</a></p>
+
+
+    </div>
+
+
+    <div class="off-screen-nav-cover"></div>
+
+
+  </div><!-- div.page-wrap -->
+
+
+  <!-- libs -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <!-- for modals-2 -->
+
+  <!-- demo -->
+  <script src="assets/js/demo/demo.js"></script>
+
+  <!-- Individual module JS files here -->
+  <!-- Should we combine or not combine? -->
+  <!-- Should we provide minified versions? -->
+  <script src="assets/js/modules/modals.js"></script>
+  <script src="assets/js/modules/buttons.js"></script>
+  <script src="assets/js/modules/list-items.js"></script>
+  <script src="assets/js/modules/off-screen-nav.js"></script>
+  <script src="assets/js/modules/page-transitions.js"></script>
+  <script src="assets/js/modules/list-scroll.js"></script>
+
+  <script>
+    stroll.bind('.effeckt-demo-list-scroll ul');
+  </script>
+
+</body>
+
+</html>
