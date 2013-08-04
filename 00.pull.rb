@@ -42,7 +42,7 @@ end
 
 def branch_name(git_url)
   # TODO: proper handling for branch names, right now hardcoded
-  git_url =~ /Effeckt/ ? "gh-pages" : "master"
+  git_url =~ /Effeckt|beautiful\-web\-type/ ? "gh-pages" : "master"
 end
 
 def update_project(git_url)
