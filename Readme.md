@@ -15,6 +15,10 @@
       UI-less, performant transitions  animations
        104 commits, last change: 2013-07-18 06:12:51, 3,259 stars, 345 forks
 
+    kamens/jQuery-menu-aim:
+      jQuery plugin to fire events when user's cursor aims at particular dropdown menu items. For making responsive mega dropdowns like Amazon's.
+       31 commits, last change: 2013-07-19 01:08:11, 5,047 stars, 724 forks
+
     ubuwaits/beautiful-web-type:
       A showcase of the best typefaces from the Google web fonts directory.
        57 commits, last change: 2013-08-05 06:22:20, 3,059 stars, 161 forks
