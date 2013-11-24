@@ -1,4 +1,4 @@
+https://github.com/dowjones/intentionjs.git
 https://github.com/h5bp/Effeckt.css.git
 https://github.com/kamens/jQuery-menu-aim.git
 https://github.com/ubuwaits/beautiful-web-type.git
-https://github.com/dowjones/intentionjs.git
