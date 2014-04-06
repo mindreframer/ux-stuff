@@ -14,7 +14,7 @@
 
 
 ## Responsive
-  - http://responsiveemailpatterns.com/ - Email patterns
+  - http://responsiveemailpatterns.com/ - Email patterns + many good tips in footer!
 
 
 ## UI Toolkits:
