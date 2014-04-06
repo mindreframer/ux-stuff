@@ -13,6 +13,10 @@
   - http://designmodo.com/
 
 
+## Responsive
+  - http://responsiveemailpatterns.com/ - Email patterns
+
+
 ## UI Toolkits:
   - http://semantic-ui.com/views/item.html
   - http://kumailht.com/responsive-elements/
