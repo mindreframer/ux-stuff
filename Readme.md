@@ -21,6 +21,10 @@
   - http://semantic-ui.com/views/item.html
   - http://kumailht.com/responsive-elements/
 
+## Flat UI
+  - http://dope.github.io/slice/
+  - http://scottdorman.github.io/bootstrap-flat/components.html
+  - https://github.com/designmodo/Flat-UI
 
 ## CSS3
   - [Cheat Sheet](http://www.justinaguilar.com/animations/scrolling.html)
