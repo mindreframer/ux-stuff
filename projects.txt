@@ -1,3 +1,4 @@
+https://github.com/bensmithett/style.git
 https://github.com/bootflat/bootflat.github.io.git
 https://github.com/briangraves/ResponsiveEmailPatterns.git
 https://github.com/dope/slice.git
@@ -7,4 +8,3 @@ https://github.com/h5bp/Effeckt.css.git
 https://github.com/kamens/jQuery-menu-aim.git
 https://github.com/responsivebp/responsive.git
 https://github.com/ubuwaits/beautiful-web-type.git
-https://github.com/bensmithett/style.git
