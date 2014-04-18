@@ -32,6 +32,7 @@
 ## CSS3
   - [Cheat Sheet](http://www.justinaguilar.com/animations/scrolling.html)
   - [CSS Vocabulary](http://pumpula.net/p/apps/css-vocabulary/)
+  - [Magic Of CSS](http://adamschwartz.co/magic-of-css/)
 
 ## Basics
   - http://learnlayout.com/
